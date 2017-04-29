@@ -9,4 +9,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 public interface SensorRepository extends MongoRepository<Sensor, String > {
     public Sensor findByid(int id);
     public Sensor findByVacant(boolean vacant);
+    public Sensor findByStreetID(int streetID);
 }
