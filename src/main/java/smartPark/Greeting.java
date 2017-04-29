@@ -1,4 +1,4 @@
-package hello;
+package smartPark;
 
 public class Greeting {
 
